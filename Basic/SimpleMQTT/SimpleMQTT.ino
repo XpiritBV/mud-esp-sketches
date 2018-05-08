@@ -1,10 +1,12 @@
+// Sketch -> Include library -> Manage libraries -> Filter by 'PubSubClient' and install.
+// Open Serial monitor in tools menu
 #include <PubSubClient.h>
 
 #include <ESP8266WiFi.h>
 
-const char* ssid     = "<your ssid>";
-const char* password = "<your wifi password>";
-const char* mqtt_server = "<your mqtt broker>";
+const char* ssid     = "";
+const char* password = "";
+const char* mqtt_server = "mudmqtt.westeurope.cloudapp.azure.com";
 const char* inTopic = "mqttsample/in";
 const char* outTopic = "mqttsample/out";
 
