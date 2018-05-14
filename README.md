@@ -3,6 +3,7 @@ This repo contains sample code that you can use to quickly get up and running wi
 
 1. [Getting started](#getting-started)
 1. [Workshop infrastructure](#workshop-infrastructure)
+1. [Ideas](#ideas)
 ## Getting started
 Here's how to get started by setting up your dev environment.
 
@@ -63,3 +64,13 @@ The HiveMQ client is convenient for monitoring the MQTT bus. Use it to connect t
     - ClientID: choose something to your liking, but it needs to be unique
 
 Monitor your messages by creating a new topic subscription. You can use `#` as a wildcard in the topic. E.g. `testtopic/#` will subscribe to all messages delivered in any of the subtopics of `testtopic`. Just use `#` to subscribe to ALL messages.
+
+## Ideas
+To get your creativity going, here are some examples of what you could implement. Of course you're not restricted to this. Let your imagination go wild!
+
+![Ideas](ideas.jpeg)
+1. Old folks home: if temperature is below 25 degrees Celsius, turn on the heating (i.e. turn on a LED).
+1. Alarm system: if sound is detected in the attic, flash a LED.
+1. Lazy peoples lights: if motion detected (PIR), switch on the light. Switch it off after 30 seconds.
+1. Lazy peoples light #2: if motion detected (PIR), switch on the light. Switch it to 100% at daytime, but 20% at nighttime.
+1. ...
